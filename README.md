@@ -59,7 +59,7 @@ Chức năng:
 - Chỉ giữ lại các từ bắt đầu bằng chữ "C" hoặc "c".
 - Loại bỏ các từ nằm trong danh sách StopList.
 - Trả về chỉ mục đảo 
-
+```markdown
 Input:
     Dir       : thư mục chứa các file .txt
     StopList  : tên file chứa danh sách từ dừng
@@ -68,7 +68,8 @@ Output:
     DocTable: ánh xạ chỉ số → tên tài liệu
     TermTable: từ → {tên tài liệu → số lần xuất hiện}
 
-Ví dụ Input:
+Ví dụ 
+Input:
 
 Thư mục data/ chứa:
     data/
