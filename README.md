@@ -114,7 +114,7 @@ Output tương ứng:
         "courage": {"file2.txt": 1},
         "collaboration": {"file2.txt": 1}
     }
-
+```
 ----------------------------------------------------------------
 
 (b) Find(Word, Weight, N)
@@ -123,7 +123,7 @@ Tác vụ:
 - Truy vấn một từ khóa và tìm top N tài liệu chứa từ đó.
 - Điểm số tính bằng:
     score = frequency_in_doc × weight
-
+````markdown
 Input:
     Find(inverted_index, "creative", 5, 2)
 
@@ -134,7 +134,7 @@ Giải thích:
 - "creative" xuất hiện 1 lần trong mỗi file → 1 × 5 = 5 điểm
 
 ----------------------------------------------------------------
-
+```
 (c) Find(WordFile, N)
 
 Tác vụ:
@@ -142,7 +142,7 @@ Tác vụ:
     word weight
 - Sau đó tính điểm cộng dồn cho mỗi tài liệu:
     score[doc] += freq(word, doc) × weight
-
+````markdown
 Input file WordFile.txt:
     creative 5
     complex 2
@@ -155,5 +155,5 @@ Tính điểm:
 
 Output:
     [("file1.txt", 7), ("file2.txt", 5)]
-
+```
 
