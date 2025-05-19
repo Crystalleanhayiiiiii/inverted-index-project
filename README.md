@@ -1,6 +1,13 @@
 # Inverted Index Project – Python Implementation
+Sinh viên thực hiện:  Lê Anh Tình N21DCCN189
+Project cuối EX6 Đề :As a project, write a program that implements inverted indexes. Your program must contain the following routines: 
+(a) CreateIndex(Dir, StopList) takes a directory name and a file called StopList (in that directory) as input. It returns an inverted index as output. The DocTable includes all files in the directory Dir, except for the StopList file. The TermTable includes only all words occurring in the directory that start with the letter C (lower- or uppercase).
 
-Mục tiêu  
+(b) Find(Word, Weight, N) finds the top N documents in the index associated with the word specified in the input.
+
+(c) Find(WordFile, N) is similar to the above, but there is one difference. Instead of taking a single word as part of the input, it takes a file called WordFile as input. This file has, on each line, a word (string) and a weight (integer). It then attempts to find, using the inverted index, the top N matches for this query.
+
+Mục tiêu:  
 Xây dựng một hệ thống tìm kiếm văn bản đơn giản sử dụng chỉ mục đảo (inverted index), bao gồm ba chức năng chính:
 
 (a) CreateIndex(Dir, StopList)  
@@ -11,6 +18,11 @@ Tìm top N tài liệu chứa một từ khóa cụ thể với trọng số.
 
 (c) Find(WordFile, N)  
 Tìm top N tài liệu phù hợp nhất với danh sách các từ khóa có trọng số, được đọc từ file.
+
+Hướng dẫn cài đặt:
+Cài Python từ python.org
+Mở terminal tại thư mục chứa main.py
+
 
 Cấu trúc thư mục project:
 
